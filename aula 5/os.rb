@@ -1,6 +1,6 @@
 # GEMS
-# Gem é um pacote que oferece funcionalidades a fim de resolver uma necessidade específica de um programa Ruby.
-# Tem o mesmo conceito do uso de bibliotecas em outras linguagens de programação.
+# Gem es un paquete que ofrece funcionalidades para resolver una necesidad específica de un programa Ruby.
+# Tiene el mismo concepto que el uso de bibliotecas en otros lenguajes de programación.
 require 'os'
 
 def my_os
@@ -11,7 +11,7 @@ def my_os
     elsif OS.mac?
         "OSX"
     else
-        "Não consegui identificar"
+        "No pude identificar"
     end
 end
-puts "Meu PC possui #{OS.cpu_count} cores, e #{OS.bits} bits e o sistema operacional é #{my_os}"
+puts "Mi PC tiene #{OS.cpu_count} cores, e #{OS.bits} bits y el sistema operativo es #{my_os}"
