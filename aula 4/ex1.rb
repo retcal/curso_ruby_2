@@ -1,10 +1,10 @@
-puts 'Digite o primeiro número: '
+puts 'Introduzca el primer número: '
 number_1 = gets.chomp.to_f
-puts 'Digite o segundo número: '
+puts 'Digite el segundo número: '
 number_2 = gets.chomp.to_f
-puts 'Digite o terceiro número: '
+puts 'Digite el tercer número: '
 number_3 = gets.chomp.to_f
-puts "\nOs números que você escolheu elevados a segunda potência resultam em:"
+puts "\nLos números que has elegido elevados a la segunda potencia dan como resultado:"
 nums = [number_1,number_2,number_3]
 
 num = 0 
