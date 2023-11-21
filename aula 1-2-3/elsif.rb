@@ -1,6 +1,6 @@
-day = 'Quarta'
+day = 'Miércoles'
 
-if day == 'Sunday'
+if day == 'Domingo'
   lunch = 'special'
 elsif day == 'Holiday'
   lunch = 'later'
@@ -8,4 +8,4 @@ else
   lunch = 'normal' 
 end
 
-puts "Lunch is #{lunch} today"
+puts "El almuerzo es #{lunch} today"
