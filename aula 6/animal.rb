@@ -29,6 +29,6 @@ Perro.latir
 
 # instancia el objeto gato de la clase Gato que hereda comportamientos de la clase Animal
 gato = Gato.new
-gato.pular
+gato.saltar
 gato.dormir
 gato.meow
