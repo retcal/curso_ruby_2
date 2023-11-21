@@ -1,5 +1,5 @@
 class Animal
-    def pular
+    def saltar
         puts "Toing! tóim! bóim! póim!"
     end
     def dormir
@@ -7,27 +7,27 @@ class Animal
     end
 end
 
-# extende a classe Animal (herança)
-class Cachorro < Animal
-    def latir
+# extende a classe Animal (herencia)
+class Perro < Animal
+    def ladrar
         puts "Au Au"
     end
 end
 
-# extende a classe Animal (herança)
+# extende a classe Animal (herencia)
 class Gato < Animal
     def meow
         puts "meow"
     end
 end
 
-# instância o objeto cachorro da classe Cachorro que herda comportamentos da classe Animal
-cachorro = Cachorro.new
-cachorro.pular
-cachorro.dormir
-cachorro.latir
+# instancia el objeto perro de la clase Perro que hereda comportamientos de la clase Animal
+Perro = Perro.new
+Perro.pular
+Perro.dormir
+Perro.latir
 
-# instância o objeto gato da classe Gato que herda comportamentos da classe Animal
+# instancia el objeto gato de la clase Gato que hereda comportamientos de la clase Animal
 gato = Gato.new
 gato.pular
 gato.dormir
