@@ -12,5 +12,5 @@ edad = gets.chomp
 
 #salida utilizando puts
 #utilizar código ruby dentro de una cadena con #{code}
-puts "Hello #{name} #{sobrenome}, tienes #{idade} años!"
+puts "Hello #{nombre} #{apellido}, tienes #{edad} años!"
 
