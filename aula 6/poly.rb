@@ -1,13 +1,13 @@
 #polimorfismo
 class Instrumento
     def escrever
-        puts "Escrevendo"
+        puts "Escribiendo"
     end
 end
 
 # sobrescreve o método do pai mas, com o super ainda consegue chamar o método do pai
 class Teclado < Instrumento
-    def escrever
+    def escribir
         puts "tecladooooo"
         super
     end
@@ -15,14 +15,14 @@ end
 
 # sobrescreve o método do pai (polimorfismo)
 class Lapis < Instrumento
-    def escrever
+    def escribir
         puts "Escrevendo à lápis"
     end
 end
 
 # sobrescreve o método do pai (polimorfismo)
 class Caneta < Instrumento
-    def escrever
+    def escribir
         puts "Escrevendo à caneta"
     end
 end
@@ -33,8 +33,8 @@ lapis = Lapis.new
 caneta = Caneta.new
 
 puts "lapis:"
-lapis.escrever
+lapis.escribir
 puts "caneta:"
-caneta.escrever
+caneta.escribir
 puts "teclado:"
-teclado.escrever
+teclado.escribir
