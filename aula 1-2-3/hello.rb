@@ -1,16 +1,16 @@
-#saída de dado
-print "Digite seu nome: "
+#salida de datos
+print "Digite su nombre: "
 
-#recebendo uma entrada do teclado
+#recibir una entrada desde el teclado
 name = gets.chomp
 
-print "Digite seu sobrenome: "
+print "Digite su Apellido: "
 sobrenome = gets.chomp
 
-print "Digite sua idade: "
+print "Digite su edad: "
 idade = gets.chomp
 
-#saída utilizando puts
-#use códigos ruby dentro de uma string com #{code}
-puts "Hello #{name} #{sobrenome}, você possui #{idade} anos!"
+#salida utilizando puts
+#utilizar código ruby dentro de una cadena con #{code}
+puts "Hello #{name} #{sobrenome}, tienes #{idade} años!"
 
