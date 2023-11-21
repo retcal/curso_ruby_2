@@ -2,7 +2,7 @@ result = ''
 
 loop do
     puts result
-    puts 'Selecione uma das seguintes opções:'
+    puts 'Selecione uma das seguintes opciones:'
     puts '1 - Descobrir a idade de uma pessoa'
     puts '0 - Sair'
     print 'Opção: '
