@@ -2,13 +2,13 @@
 print "Digite su nombre: "
 
 #recibir una entrada desde el teclado
-name = gets.chomp
+nombre = gets.chomp
 
 print "Digite su Apellido: "
-sobrenome = gets.chomp
+apellido = gets.chomp
 
 print "Digite su edad: "
-idade = gets.chomp
+edad = gets.chomp
 
 #salida utilizando puts
 #utilizar código ruby dentro de una cadena con #{code}
