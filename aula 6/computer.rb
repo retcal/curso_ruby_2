@@ -6,6 +6,6 @@ class Computer
         "shutdown the computer"
     end
 end
-#classes - demonstração
+#classes - demostracion
 computer = Computer.new
 puts computer.shutdown
