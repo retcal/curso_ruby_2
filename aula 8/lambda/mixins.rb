@@ -1,51 +1,51 @@
 # Modules
-# Os modules possuem duas funções (namespace e mixins):
-# 2 - Mixins serve para incluir funcionalidades de module para outro
+# Los módulos tienen dos funciones (namespace y mixins):
+# 2 - Los mixins se utilizan para incluir funcionalidades de un módulo en otro
 
-module ImpressaoDecorada
+module ImpresionDecorada
     def imprimir text
         decoracao = '#' * 100
-        puts decoracao 
+        puts decoracion 
         puts text
-        puts decoracao
+        puts decoración
     end
 end
 
-module Pernas
-    include ImpressaoDecorada
-    def chute_frontal
-        imprimir "chute frontal"
+module Piernas
+    include ImpresionoDecorada
+    def patada_frontal
+        imprimir "patada frontal"
     end
 
-    def chute_lateral
-        imprimir "chute lateral"
+    def patada_lateral
+        imprimir "patada lateral"
     end
 
 end
 
-module Bracos
-    include ImpressaoDecorada
-    def jab_de_direita
-        imprimir "jab de direita"
+module Brazos
+    include ImpresionDecorada
+    def golpe_derecha
+        imprimir "golpe de derecha"
     end
 
-    def jab_de_esquerda
-        imprimir "jab de esquerda"
+    def golpe_isquierda
+        imprimir "golpe de izquierda"
     end
 end
 
-class LutadorX
+class LuchadorX
     include Pernas
     include Bracos
 end
 
-class LutadorY
-    include Pernas
+class LuchadorY
+    include Piernas
 end
 
-lutadorx = LutadorX.new
-lutadorx.chute_frontal
-lutadorx.jab_de_direita
+luchadorx = LuchadorX.new
+luchadorx.patada_frontal
+luchadorx.golpe_derecha
 
-lutadory = LutadorY.new
-lutadory.chute_lateral
+luchadory = LuchadorY.new
+luchadory.patada_lateral
