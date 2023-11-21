@@ -1,5 +1,5 @@
 loop do
-    puts "\nSelecione uma das seguintes opções:"
+    puts "\nSeleccione una de las siguientes opciones:"
     puts '1 - Sumar'
     puts '2 - Restar'
     puts '3 - Multiplicar'
