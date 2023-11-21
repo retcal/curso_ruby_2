@@ -5,6 +5,6 @@ loop do
     if count == 100
         break
     end
-    #incrementa a variável count
+    #incrementa la variable count
     count += 1
 end
