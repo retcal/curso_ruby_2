@@ -1,6 +1,6 @@
 #polimorfismo
 class Instrumento
-    def escrever
+    def escribir
         puts "Escribiendo"
     end
 end
