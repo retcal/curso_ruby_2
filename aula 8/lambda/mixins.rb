@@ -4,15 +4,15 @@
 
 module ImpresionDecorada
     def imprimir text
-        decoracao = '#' * 100
+        decoracion = '#' * 100
         puts decoracion 
         puts text
-        puts decoración
+        puts decoracion
     end
 end
 
 module Piernas
-    include ImpresionoDecorada
+    include ImpresionDecorada
     def patada_frontal
         imprimir "patada frontal"
     end
@@ -35,8 +35,8 @@ module Brazos
 end
 
 class LuchadorX
-    include Pernas
-    include Bracos
+    include Piernas
+    include Brazos
 end
 
 class LuchadorY
