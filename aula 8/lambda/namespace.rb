@@ -1,6 +1,6 @@
 # Modules
-# Os modules possuem duas funções:
-# 1 - Namespace serve como um container para agrupar objetos relacionados (classes, constantes, métodos ou outros modules)
+# Los módulos tienen dos funciones:
+# 1 - Namespace sirve como un contenedor para agrupar objetos relacionados (classes, constantes, métodos u otros módulos)
 
 module ReverseWord
     def self.puts text
@@ -15,7 +15,7 @@ module ReverseWord
 end
 
 imprimir = ReverseWord::Imprimir.new
-imprimir.call "O resultado é"
+imprimir.call "El resultado es"
 puts "..."
 
 module NormalWord
@@ -23,7 +23,7 @@ module NormalWord
         print text        
     end    
 end
-puts "espelhado"
-ReverseWord::puts "O resultado é"
+puts "Espejo"
+ReverseWord::puts "El resultado es"
 puts "normal"
-NormalWord::puts"O resultado é"
+NormalWord::puts"El resultado es"
