@@ -2,13 +2,13 @@ meu_hash  = {}
 
 3.times do
 
-print "digite um nome para a chave --> "
+print "escriba un nombre para la clave --> "
 chave = gets.chomp 
-print "digite um valor para a chave -- > "
+print "introduzca un valor para la clave -- > "
 meu_hash[chave] = gets.chomp
 end
 
 meu_hash.each do |key, value|
-puts "A chave é >> #{key} << e o valor é >> #{value} <<"
+puts "La clave es >> #{key} << y el valor es >> #{value} <<"
 
 end
