@@ -1,20 +1,20 @@
 loop do
     puts "\nSelecione uma das seguintes opções:"
-    puts '1 - Somar'
-    puts '2 - Subtrair'
+    puts '1 - Sumar'
+    puts '2 - Restar'
     puts '3 - Multiplicar'
     puts '4 - Dividir'
-    puts '0 - Sair'
-    print 'Opção: '
+    puts '0 - Salir'
+    print 'Opcion: '
   
     option = gets.chomp.to_i
     break if option == 0
   
     if [1,2,3,4].include?(option)
-      puts 'Digite o primeiro número: '
+      puts 'Introduzca el primer número: '
       number_1 = gets.chomp.to_f
   
-      puts 'Digite o segundo número: '
+      puts 'Introduzca el segundo número: '
       number_2 = gets.chomp.to_f
     end
   
@@ -28,16 +28,16 @@ loop do
     when 4
       result = number_1 / number_2
     else
-      result = "Opção Inválida"
+      result = "opcion Invalida"
     end
   
   
     system 'clear'
   
-    if result == "Opção Inválida"
+    if result == "Opcion Invalida"
       puts result
     else
-      puts "O resultado é #{result}"
+      puts "El resultado es #{result}"
     end
   
 end
