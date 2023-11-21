@@ -10,7 +10,7 @@ loop do
     option = gets.chomp.to_i
 
     if option == 1
-        print 'Digite el año de nacimento: '
+        print 'Digite el año de nacimiento: '
         year_of_birth = gets.chomp.to_i
         print 'Digite el año actual: '
         current_year = gets.chomp.to_i
