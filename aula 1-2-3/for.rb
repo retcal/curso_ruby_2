@@ -1,4 +1,4 @@
-fruits = ['maça', 'uva', 'manga', 'banana']
+fruits = ['manzana', 'uva', 'mango', 'banana']
 count = 1
 
 for x in fruits
