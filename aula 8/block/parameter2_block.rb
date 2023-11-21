@@ -3,4 +3,4 @@ def foo(name, &block)
     block.call
     
 end
-foo('Manassés'){puts "Hello #{@name}"}
+foo('Jose'){puts "Hello #{@name}"}
