@@ -1,10 +1,10 @@
-print "Por favor, digite o primeiro número inteiro: "
+print "Introduzca el primer número entero: "
 number1=gets.chomp .to_i
 
-print "Por favor, digite o segundo número inteiro: "
+print "Introduzca el segundo número entero: "
 number2=gets.chomp .to_i
 
-puts "A Soma dos números inteiros é igual a: #{number1+number2}."
-puts "A Subtração dos números inteiros é igual a: #{number1-number2}."
-puts "A Multiplicação dos números inteiros é igual a: #{number1*number2}."
-puts "A Divisão dos números inteiros é igual a: #{number1/number2}."
+puts "La suma de los números enteros es igual a: #{number1+number2}."
+puts "La resta de números enteros es igual a: #{number1-number2}."
+puts "La multiplicación de números enteros es igual a: #{number1*number2}."
+puts "La división de números enteros es igual a: #{number1/number2}."
