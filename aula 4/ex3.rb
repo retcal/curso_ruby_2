@@ -1,8 +1,8 @@
-# Dado o seguinte hash:
+# Teniendo en cuenta lo siguiente el hash:
 # Numbers = {A: 10, B: 30, C: 20, D: 25, E: 15}
-# Crie uma instrução que seleciona o maior valor deste hash e no final imprima a chave e o valor do elemento resultante.
+# Crea una instrucción que seleccione el mayor valor de este hash y al final imprima la clave y el valor del elemento resultante.
 
 numbers = {A: 10, B: 30, C: 20, D: 25, E: 15}
 
 #puts "#{numbers.keys.sort.last}: #{numbers.values.sort.last}"
-puts ("Maior valor de chave: #{numbers.max_by{|chave,valor| valor}}")
+puts ("Valor más alto de la clave: #{numbers.max_by{|chave,valor| valor}}")
