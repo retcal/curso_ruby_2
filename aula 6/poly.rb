@@ -5,7 +5,7 @@ class Instrumento
     end
 end
 
-# sobrescreve o método do pai mas, com o super ainda consegue chamar o método do pai
+# sobrescribe el método del padre, pero con el super todavía puede llamar al método del padre
 class Teclado < Instrumento
     def escribir
         puts "tecladooooo"
@@ -13,28 +13,28 @@ class Teclado < Instrumento
     end
 end
 
-# sobrescreve o método do pai (polimorfismo)
-class Lapis < Instrumento
+# sobrescribe el metodo  padre (polimorfismo)
+class Lapiz < Instrumento
     def escribir
-        puts "Escrevendo à lápis"
+        puts "Escribiendo con lapiz"
     end
 end
 
-# sobrescreve o método do pai (polimorfismo)
-class Caneta < Instrumento
+#sobrescribe el metodo  padre (polimorfismo)
+class Pluma < Instrumento
     def escribir
-        puts "Escrevendo à caneta"
+        puts "Escribiendo con pluma"
     end
 end
 
-# instância o objetos das respectivas classes que herdam comportamentos da classe instrumento
+# instancia los objetos de las clases respectivas que heredan comportamientos de la clase instrumento
 teclado = Teclado.new
-lapis = Lapis.new
-caneta = Caneta.new
+lapiz = Lapiz.new
+pluma = Pluma.new
 
-puts "lapis:"
-lapis.escribir
-puts "caneta:"
-caneta.escribir
+puts "lapiz:"
+lapiz.escribir
+puts "Pluma:"
+pluma.escribir
 puts "teclado:"
 teclado.escribir
