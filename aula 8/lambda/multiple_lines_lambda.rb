@@ -1,6 +1,6 @@
 my_lambda = lambda do |numbers|
     index = 0
-    puts "Número atual + próximo número"
+    puts "Número actual + próximo número"
     numbers.each do |number|
         return if numbers[index] == numbers.last
         puts "(#{numbers[index]}) + (#{numbers[index + 1]}) ="
