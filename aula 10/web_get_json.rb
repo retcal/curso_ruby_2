@@ -1,7 +1,7 @@
 require 'net/http'
  
 https = Net::HTTP.new('viacep.com.br', 443)
-# para fazer chamadas https
+# para realizar llamadas https
 https.use_ssl = true
  
 response = https.get("/ws/01001000/json")
