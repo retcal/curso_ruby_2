@@ -1,6 +1,6 @@
 def foo
-    # pode ser definida como local ou _local
-    local = "local é acessada apenas dentro deste método "
+    # puede ser local o _local
+    local = "sólo se accede dentro de este método "
     print local
 end
 foo
