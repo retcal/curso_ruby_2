@@ -1,5 +1,5 @@
-# Chamadas Web
-# Para recuperar informações, enviar formulários, ou então, enviar documentos para websites, o ruby conta com uma biblioteca chamada Net::HTTP que é capaz de realizar chamadas web.
+# Llamadas por Internet
+# Para recuperar información, enviar formularios o enviar documentos a sitios web, ruby dispone de una biblioteca llamada Net::HTTP capaz de realizar llamadas web.
 
 require 'net/http'
  
