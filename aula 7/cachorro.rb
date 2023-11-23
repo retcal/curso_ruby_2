@@ -1,5 +1,5 @@
 class Cachorro < Animal
-    def latir
+    def ladrar
         puts 'Au Au!'
     end
 end
