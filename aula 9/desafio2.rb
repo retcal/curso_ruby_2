@@ -1,9 +1,9 @@
-# Missão 2
-# Em uma classe chamada Carro, crie um método público chamado get_km que recebe como parâmetro a seguinte informação “Um fusca de cor amarela viaja a 80km/h ”.
+# Mision 2
+# En una clase llamada Coche, crea un método público llamado get_km que reciba la siguiente información como parámetro: "Un VW Escarabajo amarillo viaja a 80km/h".
 
-# O método get_km deve chamar um método privado com o nome de find_km. Este deve localizar e retornar o casamento de padrão 80km/h.
+# El método get_km debe llamar a un método privado llamado find_km. Este debe encontrar y devolver el matrimonio por defecto 80km/h.
 
-# No final, imprima este retorno.
+# Al final, imprime esta declaración.
 
 class Car
     def get_km(phrase)
@@ -18,7 +18,7 @@ class Car
     end
 end
     
-   phrase = "Um fusca de cor amarela viaja a 80km/h"
+   phrase = "Un VW Escarabajo amarillo a 80 km/h"
     
    car = Car.new
    car.get_km(phrase)
