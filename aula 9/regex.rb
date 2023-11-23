@@ -9,10 +9,10 @@
 # el operador =~ devuelve la posición inicial de la ocurrencia
 puts /by/ =~ "ruby"
 
-# retorna nill quando não encontra o padrão
+# devuelve nill cuando no encuentra el patrón
 puts /by/ =~ "rails"
 
-# Método match Retorna um objeto do tipo MatchData, contendo todos os resultados do casamento de padrão.
+# Método Match Devuelve un objeto de tipo MatchData, que contiene todos los resultados de la coincidencia de patrones.
 
 phrase = "Hellow, how are you?"
  
@@ -23,94 +23,92 @@ puts match_data.pre_match
 puts match_data.post_match
 
 # Metacharacters and Escapes
-# Os símbolos (, ), [, ], {, }, ., ?, +, *,  são metacharacters. Eles possuem um significado quando utilizados em expressões regulares.
-# 1- Caso o padrão que você procura seja um metacharacter, utilize o símbolo de escape \ para realizar a busca
+# Los símbolos (, ), [, ], {, }, ., ?, +, * son metacaracteres. Tienen un significado cuando se utilizan en expresiones regulares.
+# 1- Si el patrón que buscas es un metacarácter, utiliza el símbolo de escape \ para realizar la búsqueda
 
-/\?/.match('Tudo bem?')
+/\?/.match('Todo bien?')
  
-puts /bem\!\!\!/.match('Muito bem!!!')
+puts /bem\!\!\!/.match('Muy bien!!!')
 
 # Character Classes
-# É uma lista que informa quais caracteres devem aparecer em um ponto do casamento.
+# Es una lista que te indica qué caracteres deben aparecer en un momento determinado de la coincidencia.
+1- Una clase de caracteres está delimitada por corchetes [, ].
 
-# 1- Uma character class é delimitada por colchetes [, ]
+puts /[t]exto/.match('texto que empieza por t')
 
-puts /[t]exto/.match('texto começando com t')
-
-# 2- Você pode especificar um range com o símbolo –
+# 2- Puedes especificar un rango con el símbolo -
 
 puts /[1-5]/.match('123')
 
-# Assim, é procurado um padrão onde o primeiro número pode ser 1, 2, 3, 4 ou 5
+# Así que usted está buscando un patrón donde el primer número puede ser 1, 2, 3, 4 o 5
 
-# 3- Note que o casamento também ocorre em uma string que começa com o número 2
+# 3- Obsérvese que la coincidencia también se produce en una cadena que empieza por el número 2
 
 puts /[1-5]/.match('223')
 
-# 4- O range pode ser utilizado para letras
+# 4- El range puede ser utilizado para letras
 
 puts /[a-z]/.match('Oi')
  
-# Existem alguns metacharacters que se comportam como character classes
+# Hay algunos metacaracteres que se comportan como clases de caracteres
 
-# 5- Por exemplo, o metacharacter \d verifica o padrão [0-9]
+# 5- Por ejemplo, el metacarácter \d comprueba el patrón [0-9]
 
 puts /A\d/.match('A4')
 
 # Repetition
-# É possível definir a repetição de um mesmo padrão, evitando escrever a mesma coisa diversas vezes.
+# Puede definir la repetición de un mismo patrón, evitando escribir lo mismo varias veces.
 
-# 1- Por exemplo, verifique o casamento de padrão em uma etiqueta que começa com uma letra e 3 números.
+# 1- Por ejemplo, compruebe la coincidencia de patrones en una etiqueta que empiece por una letra y 3 números.
 
 puts "A343".match(/[A-Z]\d{3}/)
 
-# Ao em vez de digitar \d\d\d você pode escrever \d{3}
+# En lugar de escribir \d\d\d puede escribir \d{3}
 
-# 2- Verifique se uma letra foi escrita mantendo o padrão de repetição entre três ou mais vezes
+# 2- Compruebe si una letra se ha escrito siguiendo un patrón repetido tres o más veces.
 
 puts "BBB AAAA".match(/A{3,}/)
 
-# A vírgula em {3, } informa que a repetição pode ocorrer 3 ou mais vezes
+# La coma en {3, } indica que la repetición puede producirse 3 o más veces
 
-# Conclui-se que a Expressão Regular é uma ferramenta muito poderosa, capaz de identificar qualquer padrão em uma string. Caso se interesse pelo tema, recomendo fortemente que leia esta documentação.
+# En conclusión, la Expresión Regular es una herramienta muy poderosa, capaz de identificar cualquier patrón en una cadena. Si te interesa el tema, te recomiendo encarecidamente que leas esta documentación.
  
 # Math
-# Math é um módulo nativo para funções matemáticas.
+# Math es un módulo nativo para funciones matemáticas.
 
-# 1- Sabendo a raiz quadrada de 64
+# 1- Conocer la raíz cuadrada de 64
 
 puts Math.sqrt(64)
 
-# 2- Verificando o logaritmo de 10000 na base 10
+# 2- Comprobación del logaritmo de 10000 en base 10
 
 puts Math.log10(10000)
 
-#3- O logaritmo de 16 na base 2
+#3- El logaritmo de 16 en base 2
 
 puts Math.log2(16)
 
-# 4- Calculando o cosseno para o ângulo de 30º
+# 4- Cálculo del coseno del ángulo de 30
 
-# Primeiro transforme o ângulo em um valor radiano
+# Primero transforme el ángulo en un valor de radián
 
 puts radian = 30 * (Math::PI / 180)
 
-# Depois utilize o método cos
+# A continuación, utilice el método cos
 
 puts Math.cos(radian)
 
-# O módulo Math também fornece o valor de duas constantes bastante utilizadas:
+# El módulo Math también proporciona el valor de dos constantes de uso común:
 
 # E e PI
 
-# 5- Para consultar o valor da constante E execute
+# 5- Para comprobar el valor de la constante E ejecuta
 
 puts Math::E 
 
-# 2- Consulte o valor da constante PI com a instrução
-
+# 2- Compruebe el valor de la constante PI con la instruccion
 puts Math::PI
 
 # Math::PI
-# Tenha acesso a mais métodos matemáticos do módulo Math através da documentação.
+# Acceda a más métodos matemáticos del módulo Math a través de la documentación.
 
