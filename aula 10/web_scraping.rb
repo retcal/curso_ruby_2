@@ -1,14 +1,14 @@
 # Web Scraping
 
-# O Web Scraping automatiza o processo de extração de dados de uma página web.
+# Web scraping automatiza el proceso de extracción de datos de una página web.
 
-# Uma das bibliotecas mais utilizadas no mundo ruby para fazer Web scraping é a nokogiri
+# Una de las librerías más utilizadas en el mundo Ruby para Web scraping es nokogiri
 
 require 'nokogiri'
 require 'net/http'
  
 https = Net::HTTP.new('onebitcode.com', 443)
-# para fazer chamadas https
+# para realizar llamadas https
 https.use_ssl = true
  
 response = https.get("/")
