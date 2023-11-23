@@ -1,4 +1,4 @@
-# Através de poucas instruções, é possível ler o conteúdo, ou então, escrever algumas informações dentro de um arquivo externo. Isso é feito por meio de uma classe chamada File, a qual conta com diversas opções para manipulação de arquivos.
+# A través de unas pocas instrucciones, es posible leer el contenido de, o escribir alguna información en, un archivo externo. Esto se hace a través de una clase llamada File, que tiene varias opciones para manipular archivos.
 
  
 puts "---Lista de compras---"
@@ -8,8 +8,8 @@ file = File.open("./shopping-list.txt")
 file.each do |line|
     puts line
 end
-puts "---Tamanho do arqivo em bytes:"
+puts "---Tamaño del archivo en bytes:"
 puts File.open('shopping-list.txt').size
 
-# O método size retorna o tamanho do arquivo em bytes.
+# El método size devuelve el tamaño del archivo en bytes.
 File.open('shopping-list.txt').size
