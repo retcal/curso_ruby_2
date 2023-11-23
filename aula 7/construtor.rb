@@ -4,10 +4,10 @@ class Person
         @age = age
     end
     def check
-        puts "Instância da classe iniciada com os valores"
+        puts "Instancia de la clase inicializada con los valores "
         puts "Nome = #{@name}"
         puts "Idade #{@age}"
     end
 end
-person = Person.new('João', 19)
+person = Person.new('Jonh', 19)
 person.check
