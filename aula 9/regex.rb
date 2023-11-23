@@ -28,7 +28,7 @@ puts match_data.post_match
 
 /\?/.match('Todo bien?')
  
-puts /bem\!\!\!/.match('Muy bien!!!')
+puts /bien\!\!\!/.match('Muy bien!!!')
 
 # Character Classes
 # Es una lista que te indica qué caracteres deben aparecer en un momento determinado de la coincidencia.
