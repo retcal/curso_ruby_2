@@ -1,7 +1,7 @@
 require 'net/http'
  
 https = Net::HTTP.new('reqres.in', 443)
-# para fazer chamadas https
+# para realizar llamadas https
 https.use_ssl = true
  
 response = https.get("/api/users")
