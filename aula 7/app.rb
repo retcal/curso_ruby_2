@@ -3,9 +3,9 @@ require_relative 'cachorro'
 
 puts '--Animal--'
 animal = Animal.new
-animal.pular
+animal.saltar
 
 puts '--Cachorro--'
 cachorro = Cachorro.new
-cachorro.pular
-cachorro.latir
+cachorro.saltar
+cachorro.ladrar
