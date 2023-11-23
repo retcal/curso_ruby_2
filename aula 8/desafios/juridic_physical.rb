@@ -1,5 +1,5 @@
-# Missão 2
-# Crie um módulo chamado Person com as classes Juridic e Physical.
+# Misión 2
+# Crear un módulo llamado Persona con las clases Juridic y Physical.
 module Person
  class Juridic
    def initialize(name, cnpj)
@@ -8,8 +8,8 @@ module Person
    end
  
    def add
-     puts 'Pessoa Jurídica Adicionada'
-     puts "nome: #{@name}"
+     puts 'Entidad jurídica añadida'
+     puts "nombre: #{@name}"
      puts "cnpj: #{@cnpj}"
    end
  end
@@ -21,12 +21,12 @@ module Person
    end
  
    def add
-     puts 'Pessoa Física Adicionada'
-     puts "nome: #{@name}"
+     puts 'Individual Añadido'
+     puts "nombre: #{@name}"
      puts "cpf: #{@cpf}"
    end
  end
 end
  
-Person::Juridic.new('CES. Investimentos', '4241.123/0001').add
-Person::Physical.new('Manassés Almeida', '000.123.000-00').add
+Person::Juridic.new('CES. Inversiones', '4241.123/0001').add
+Person::Physical.new('jose Almeida', '000.123.000-00').add
