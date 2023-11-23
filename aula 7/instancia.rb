@@ -1,13 +1,13 @@
 class User
     def add(name)
         @name = name
-        puts 'User adicionado!'
+        puts 'User añadido!'
         hello
     end
     def hello
-        puts "Seja bem vindo, #{@name}"
+        puts "Bienvenido, #{@name}"
     end
 end
 
 user = User.new
-user.add('João')
+user.add('Jonh')
