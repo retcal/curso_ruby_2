@@ -1,5 +1,5 @@
 class Animal
-    def pular
+    def saltar
         puts 'Toing! toing! boing! poing!'
     end
     def dormir
