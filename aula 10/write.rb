@@ -1,7 +1,7 @@
 File.open('shopping-list.txt', 'a') do |line|
-    line.puts('  macarrão')
-    line.puts('açucar')
-    line.print('azeite')
-    line.print(' de ')
+    line.puts('  fideos')
+    line.puts('azúcar')
+    line.print('aceite')
+    line.print(' te ')
     line.print('oliva')
    end
