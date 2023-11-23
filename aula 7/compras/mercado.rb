@@ -1,13 +1,13 @@
-# 2 - No arquivo mercado.rb crie uma classe chamada Mercado que ao ser inicializada recebe como atributo uma instância da classe Produto (com nome de produto)
-# dentro da classe, crie um método chamado comprar que imprime a seguinte frase: "Você comprou o produto #{@produto.nome} no valor de #{@produto.preco}"
+# 2 - En el fichero mercado.rb, crea una clase llamada Mercado que, al inicializarse, reciba como atributo una instancia de la clase Produto (con el nombre de produto).
+# Dentro de la clase, crea un método llamado comprar que imprima la siguiente sentencia: "Has comprado el producto #{@producto.nombre} por #{@producto.precio}"
 require "./produto"
 
 class Mercado
-    def initialize(produto, preco)
-        @produto = produto
-        @preco = preco
+    def initialize(producto, precio)
+        @producto = producto
+        @precio = precio
     end  
     def comprar 
-        puts "Você comprou o produto #{@produto} no valor de #{@preco}"
+        puts "Usted compró el producto #{@producto} por #{@precio}"
     end  
 end
