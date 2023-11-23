@@ -1,5 +1,5 @@
-# 1 - No arquivo produto.rb, crie uma classe chamada Produto com os atributos: nome e preco
+# 1 - En el archivo product.rb, crea una clase llamada Product con los atributos: name y price
 
-class Produto
-    attr_accessor :nome, :preco
+class Producto
+    attr_accessor :nombre, :precio
 end
