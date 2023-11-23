@@ -1,12 +1,12 @@
 #Regex
-# Abreviatura de Regular Expressions (Expressões Regulares), regex é uma sequência de caracteres especiais que nos ajudam a identificar (e selecionar) padrões de caracteres em strings.
+# Abreviatura de expresiones regulares, regex es una secuencia de caracteres especiales que nos ayudan a identificar (y seleccionar) patrones de caracteres en cadenas.
 
-# maneiras de fazer Regex
-# 1 - /expressão/
-# 2 - %r{expressão}
-# 3 - Regexp.new('expressão')
+# formas de hacer Regex
+# 1 - /expresion/
+# 2 - %r{expresion}
+# 3 - Regexp.new('expresion')
 
-# operador =~ retorna a posição inicial da ocorrência
+# el operador =~ devuelve la posición inicial de la ocurrencia
 puts /by/ =~ "ruby"
 
 # retorna nill quando não encontra o padrão
