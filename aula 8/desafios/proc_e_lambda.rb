@@ -1,5 +1,5 @@
-# Característica    |           Proc             |        Lambda
+# Caracteristica   | Proc                         | Lambda
 #--------------------------------------------------------------------------------
-#N° de argumentos   |          Variável          |         Fixo
-#Alteração do escopo|            Sim             |          Não
-#Uso-ambos--> Encapsular um bloco de código para passar para uma função ou método
+#de argumentos     | Variable                     | Fijo
+#Cambiar ámbito    | Sí                           | No
+#Use-both--> Encapsula un bloque de código para pasarlo a una función o método
